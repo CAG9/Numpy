@@ -182,7 +182,12 @@ np.hstack((h1,h2))
 filedata = np.genfromtxt('data.txt', delimiter=',')
 filedata = filedata.astype('int32')
 print(filedata)
+
+
+
 #Boolean Masking and Advanced Indexing
+filedata[filedata > 50]
+#~ = not
 (~((filedata > 50) & (filedata < 100)))
 
 
