@@ -9,7 +9,7 @@ print(b)
 # Get Dimension
 a.ndim
 
-# Get Shape (2,3)
+# Get Shape (2,3) 
 b.shape
 
 # Get Type
